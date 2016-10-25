@@ -1,0 +1,194 @@
+
+html{
+	height:100%;
+}
+
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	background:url(../pictures/stable.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+#header { 
+	position:absolute;
+	background-color:  rgba(1,20,39,0.5);
+	padding-top:20px;
+	padding-bottom:20px;
+	left:0;
+	width:100%;
+	min-width: 1200px;
+	overflow: auto;
+	top:0;
+	z-index: 999;
+	text-align: center;
+}
+
+a{
+	font-size:22px;
+	font-style:italic;
+	text-decoration: none;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color:white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+a:hover{
+	color:rgb(195,176,97);
+	text-decoration: none;
+}
+
+#content {
+	margin: 0 auto;
+	padding: 0px;
+	padding-bottom: 50px;
+	max-height:800px;   
+	min-width: 900px;
+	min-height: 800px;
+	overflow: auto;
+}
+
+#footer {
+	position:absolute;
+	background-color:  rgba(1,20,39,0.5);
+	padding-top:10px;
+	padding-bottom:10px;
+	left:0;
+	right:0;
+	bottom:0;
+	text-align: center;
+	min-width: 1200px;
+}
+
+#copyright {
+	padding-bottom:10px;
+	color:#afafaf;
+	font-size:15px;
+	font-style:italic;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+
+#contact {
+	color:#afafaf;
+	font-style:italic;
+	font-size:15px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+
+#box {
+	border-radius: 5px;
+	margin: 0 auto;
+	width:100%;
+	padding-top:10px;
+	padding-bottom: 10px;
+	min-width: 900px;
+	max-width: 900px;
+	background-color: rgba(1,20,39,0.7);
+}
+
+#writting {
+	font-family:Baskerville;
+	font-style:italic;
+	width:100%;
+	text-align: center;
+	min-width:900px;
+}
+
+#writting >h1 {
+	color:rgb(195,176,97);
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: center;
+	font-style:italic;
+	letter-spacing: 0.06em;
+	font-weight:lighter;
+}
+
+#writting > div {
+	padding-top: 100px;
+	padding-bottom: 10px;
+	display:inline-block;
+}
+
+#writting >p {
+	text-align: center;
+	color:white;
+	line-height: 35px;
+	max-width:550px;
+	min-width:550px;
+	overflow: auto;
+	margin-right: auto;
+	margin-left: auto;
+	font-style:italic;
+	font-size:18px;
+	text-shadow:2px 2px black;
+	font-family:Baskerville;
+}
+
+.container {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align:center;
+	width:100%;
+	position:absolute;
+	top:10%;
+}
+
+.label-contact {
+	margin-top: 12px;
+	margin-bottom: 12px;
+	color:#afafaf;
+	font-size:12px;
+	font-style:italic;
+	font-family:Baskerville;
+}
+
+.label-contact > a {
+	font-style:italic;
+	text-decoration: none;
+	font-family:Baskerville;
+	color:white;
+	font-size: 12px; 
+	padding: 0px;
+}
+
+.current {
+	color:rgb(195,176,97);
+}
+
+.email {
+	color:#afafaf;
+	padding:0px;
+	font-size:12px;
+	font-style:italic;
+	font-family:Baskerville;
+}
+
+.email:hover {
+	color:rgb(195,176,97);
+}
+
+.row{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.col{
+	float:left;
+	margin:0;
+	width:25%;
+	min-width: 165px;
+	text-align: center;
+}
+
+
